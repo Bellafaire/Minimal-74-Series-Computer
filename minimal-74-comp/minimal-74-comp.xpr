@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="54" Path="D:/Dropbox/Lab Projects/74-Series Computer/minimal-74-comp/minimal-74-comp.xpr">
+<Project Version="7" Minor="54" Path="C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="0a9c7c8fbfb04239a2de8003363be9b5"/>
@@ -74,18 +74,38 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/new/Adder8.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/Adder8.vhd"/>
+          <Attr Name="ImportTime" Val="1559087015"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/CD74HCT283.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/CD74HCT283.vhd"/>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/CD74HCT283.vhd"/>
           <Attr Name="ImportTime" Val="1559086459"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/Adder8.vhd">
+      <File Path="$PSRCDIR/sources_1/new/SN74HCT238.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/Adder8.vhd"/>
-          <Attr Name="ImportTime" Val="1559087015"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/SN74HCT245.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT245.vhd"/>
+          <Attr Name="ImportTime" Val="1559261282"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ALU.vhd">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -93,7 +113,7 @@
       <File Path="$PSRCDIR/sources_1/imports/new/74HCT04.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/74HCT04.vhd"/>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/74HCT04.vhd"/>
           <Attr Name="ImportTime" Val="1559087236"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -102,7 +122,7 @@
       <File Path="$PSRCDIR/sources_1/imports/new/SN74HCT08.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT08.vhd"/>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT08.vhd"/>
           <Attr Name="ImportTime" Val="1557788015"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -111,7 +131,7 @@
       <File Path="$PSRCDIR/sources_1/imports/new/SN74HCT138.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT138.vhd"/>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT138.vhd"/>
           <Attr Name="ImportTime" Val="1559261801"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -120,17 +140,8 @@
       <File Path="$PSRCDIR/sources_1/imports/new/SN74HCT163.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT163.vhd"/>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT163.vhd"/>
           <Attr Name="ImportTime" Val="1559414718"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/SN74HCT245.vhd">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT245.vhd"/>
-          <Attr Name="ImportTime" Val="1559261282"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -138,7 +149,7 @@
       <File Path="$PSRCDIR/sources_1/imports/new/SN74HCT32.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT32.vhd"/>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT32.vhd"/>
           <Attr Name="ImportTime" Val="1557788117"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -147,7 +158,7 @@
       <File Path="$PSRCDIR/sources_1/imports/new/SN74HCT574.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT574.vhd"/>
+          <Attr Name="ImportPath" Val="D:/Dropbox/Lab Projects/TTL MicroController/Custom Micro-Controller/Custom Micro-Controller.srcs/sources_1/new/SN74HCT574.vhd"/>
           <Attr Name="ImportTime" Val="1557788406"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -155,7 +166,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="Adder8"/>
+        <Option Name="TopModule" Val="ALU"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
@@ -166,9 +177,10 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="Adder8"/>
+        <Option Name="TopModule" Val="ALU"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
@@ -207,22 +219,18 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="15">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xa7a50tcsg325-1I" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xa7a50tcsg325-1I" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" AutoIncrementalDir="D:/Dropbox/Lab Projects/74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
       </Strategy>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xa7a50tcsg325-1I" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xa7a50tcsg325-1I" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true" AutoIncrementalDir="D:/Dropbox/Lab Projects/74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

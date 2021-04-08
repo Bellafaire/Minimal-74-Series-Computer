@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Purpose}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Functions And Instructions}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Flags and Registers}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Component Selection}{1}{section.2}%

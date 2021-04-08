@@ -12,3 +12,20 @@
 start_gui
 open_project {C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.xpr}
 update_compile_order -fileset sources_1
+file mkdir C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new
+file mkdir C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new
+file mkdir C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new
+file mkdir C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new
+file mkdir C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new
+file mkdir C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new
+file mkdir {C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new}
+close [ open {C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new/ALU.vhd} w ]
+add_files {{C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new/ALU.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new/SN74HCT238.vhd} w ]
+add_files {{C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.srcs/sources_1/new/SN74HCT238.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

@@ -1,0 +1,115 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{letterpaper} % or letterpaper (US) or a5paper or....
+
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{circuitikz}
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Minimal 74-Series Computer}
+\author{Matthew James Bellafaire}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\listoffigures
+
+\section{Purpose}
+
+The purpose of this project is to design and implement a VHDL and physical minimal computer for use as a display demonstration. 
+The design is created and validated inside of Vivado 2020 with 74-series logic that was manually modeled. 
+
+\subsection{Functions And Instructions}
+
+
+
+\subsection{Flags and Registers}
+Operational flags are shown in Table~\ref{tabFlags}, all flags are utilized for operational purposes in conditional operations inside the CPU.
+
+\begin{table}
+	\centering
+\begin{tabular}{| c | c | c |}
+\hline
+Flag Register & Bit in flags register & Description \\
+\hline
+C & 0 & carry flag \\
+Z & 1 & zero flag \\
+L & 2 & A less than B flag \\
+G & 3 & A greater than B flag \\
+D& 4& Done\\
+\hline
+\end{tabular}
+\caption{Table of bits in flag register}
+\label{tabFlags}
+\end{table}
+\section{Component Selection}
+This computer will be built primarily out of 74 series logic due to the wide availablity and versatility of the series. 
+This section details components selected for the final design of this computer.
+\begin{description}[font=$\bullet$~\normalfont\scshape\color{red!50!black}]
+\vspace{-5mm}
+\item[CD74HCT283] - standard 4-bit adder IC selected for use in the ALU \\\vspace{-5mm}
+\item[SN74HCT574] - octal edge-triggered D-type flipflop with 3 state output. General purpose register memory, will be used in registers A, B, PC, and PD \\\vspace{-5mm}
+\item[AT28C64B] - Parallel EEPROM (8K x 8). General purpose program memory, will be where the program and varaibles are stored \\\vspace{-5mm}
+\item[SN74HCT08] - quadruple 2 input AND gate IC, selected for use in the ALU \\\vspace{-5mm}
+\item[SN74HCT32] - Quadruple 2-input OR Gate IC, selected for use in the ALU \\\vspace{-5mm}
+\item[74HCT163] - Presettable synchronous 4-bit binary counter; synchronous reset. Primary program counter \\\vspace{-5mm}
+\item[74HCT85] - 4-bit magnitude comparator. utilized in CPU to greater than, less than, and equals flag registers \\\vspace{-5mm}
+\item[74HCT245] - Octal bus tranciever with 3-state outputs. used to switch a device onto or off of the system bus \\\vspace{-5mm}
+\item[74HCT04] - hex inverter \\\vspace{-5mm}
+\item[74HCT138] - 3 to 8 decoder with inverting outputs \\\vspace{-5mm}
+\item[74HCT238] - 3 to 8 decoder with non-inverting outputs \\\vspace{-5mm}
+\end{description}
+
+\end{document}
