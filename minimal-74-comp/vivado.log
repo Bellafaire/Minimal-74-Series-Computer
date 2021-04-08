@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr  8 10:35:44 2021
+# Process ID: 8452
+# Current directory: C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22256 C:\Users\matth\Desktop\Minimal 74-Series Computer\minimal-74-comp\minimal-74-comp.xpr
+# Log file: C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/vivado.log
+# Journal file: C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Dropbox/Lab Projects/74-Series Computer/minimal-74-comp' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/matth/Desktop/Minimal 74-Series Computer/minimal-74-comp/minimal-74-comp.gen/sources_1', nor could it be found using path 'D:/Dropbox/Lab Projects/74-Series Computer/minimal-74-comp/minimal-74-comp.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
